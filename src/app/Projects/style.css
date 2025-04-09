@@ -1,0 +1,32 @@
+.titel-news{
+display: flex;
+}
+.titel-news span{
+    width: 10px;
+    height: auto;
+    border-radius: 40px;
+    background-color: #56a316;
+}
+.image-one-news{
+    border-radius: 12px;
+    /* min-height: 600px; */
+    object-position: 1/3;
+}
+.image-one-news-d{
+    border-radius: 12px;
+    width: 100%;
+}
+.card-news-list{
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: flex-start;
+    align-items: center;
+}
+.image-news-list{
+    border-radius: 12px;
+    width: 150px;
+    height: 150px;
+    margin: 0.5rem 1rem;
+    object-fit: cover;
+}

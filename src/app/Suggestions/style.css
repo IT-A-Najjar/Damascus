@@ -1,0 +1,77 @@
+.form-up{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.css-rizt0-MuiTypography-root {
+    font-family: unset !important;
+    font-weight: 700;
+}
+.form .item-input{
+    width: 100%;
+    background-color: #d9d9d9;
+    border: 3px solid #65ae18;
+    margin-top: 1rem;
+    border-radius: 18px;
+    height: 50px;
+    padding: 0rem 1rem;
+}
+.form .item-input::placeholder{
+    color: black;
+    font-weight: bold;
+}
+.form .item-input option{
+    color: black;
+    font-weight: bold;
+}
+.form .item-textarea{
+    width: 100%;
+    background-color: #d9d9d9;
+    border: 3px solid #65ae18;
+    margin-top: 1rem;
+    border-radius: 18px;
+    height: 150px;
+    padding: 1rem;
+}
+.form .item-textarea::placeholder{
+    color: black;
+    font-weight: bold;
+}
+.group-item{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.group-item input{
+    width: 200px;
+    background-color: #d9d9d9;
+    border: 3px solid #65ae18;
+    margin-top: 1rem;
+    border-radius: 18px;
+    height: 50px;
+    padding: 0rem 1rem;
+}
+.group-item button{
+    width: 200px;
+    background-color: #d9d9d9;
+    border: 3px solid #65ae18;
+    margin-top: 1rem;
+    border-radius: 18px;
+    height: 50px;
+    padding: 0rem 1rem;
+    transition: 0.4s;
+}
+.group-item button:hover{
+    background-color: #77bd1d;
+    border: 3px solid #65ae18;
+    color: #fff;
+}

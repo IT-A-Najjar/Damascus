@@ -1,0 +1,17 @@
+.content-page{
+  height: 66vh;
+  overflow: auto;
+  background-image: url('../../images/batern.png');
+  background-size: contain;
+}
+.card{
+  border-radius: 1.5rem;
+  background-color: #42790c;
+  border: 2px solid #42790c;
+  height: 100%;
+}
+.card:hover{
+  background-color: #f3b749;
+  border: 2px solid #42790c;
+  scale: 1.05;
+}
